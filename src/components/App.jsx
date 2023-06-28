@@ -13,7 +13,7 @@ const options = [
   { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
 ];
 
-export default function App() {
+export function App() {
   const [contacts, setContacts] = useState(
     JSON.parse(window.localStorage.getItem('contacts')) ?? options
   );

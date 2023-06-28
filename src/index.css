@@ -16,10 +16,13 @@ code {
 }
 
 .container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
-  margin-left: 50px;
   width: 350px;
-  background-color: #90b7f5;
-  border-radius: 3px;
-  box-shadow: 0 0 3px 4px;
+  background-color: #d3e5ae;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #db947e, 0 0 20px #db947e, 0 0 30px #db947e;
+  justify-content: center;
 }
