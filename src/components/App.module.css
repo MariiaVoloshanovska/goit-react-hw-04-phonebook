@@ -1,0 +1,5 @@
+.phonebook {
+    display: grid;
+    grid-row-gap: 15px;
+    margin-left: 15px;
+}

@@ -1,0 +1,29 @@
+.inputForm {
+    padding: 5px;
+}
+
+.addBtn {
+    width: 100px;
+    padding: 7px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 3px 1px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.addBtn:hover {
+    background-color: #b1f77c;
+}
+
+.lableName {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    font-weight: 600;
+}
+
+.lableName+.lableName {
+    margin-top: 10px;
+}

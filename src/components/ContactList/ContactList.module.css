@@ -1,0 +1,24 @@
+.contactList {
+    list-style: none;
+    margin-top: 0;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+}
+
+.contactItem+.contactItem {
+    margin-top: 10px;
+}
+
+.deleteBtn {
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    cursor: pointer;
+}

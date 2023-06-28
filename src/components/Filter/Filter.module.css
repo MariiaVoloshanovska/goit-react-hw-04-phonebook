@@ -1,0 +1,11 @@
+.lableFilter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    font-weight: 500;
+}
+
+.filterValue {
+    margin-top: 5px;
+    padding: 3px;
+}
