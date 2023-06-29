@@ -22,12 +22,11 @@ export function App() {
   const addContact = ({ name, number }) => {
     const Name = name.toLowerCase();
 
-  const findName = this.state.contacts
-  .find(contact => contact.name.toLowerCase() === Name.toLowerCase());
-if (findName) {
-  alert(`${Name} is already in contacts`);
-  return;
-}
+  const findName = contacts.find(contact => contact.name.toLowerCase() === Name.toLowerCase());
+    if (findName) {
+      alert(`${Name} is already in contacts`);
+    return;
+  }
 
   const contact = {
     id: nanoid(),
